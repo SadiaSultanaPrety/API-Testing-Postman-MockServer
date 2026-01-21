@@ -1,4 +1,4 @@
-# 🚀 API Testing & Validation Project (Postman & Newman)
+# 🚀 Mock API Testing (Postman & Newman)
 
 This repository demonstrates my proficiency in **API Testing** using Postman. I have implemented a complete testing workflow, from setting up a **Mock Server** to generating automated reports with **Newman**, including rigorous **JavaScript Assertions**.
 

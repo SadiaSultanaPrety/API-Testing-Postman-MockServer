@@ -1,6 +1,6 @@
 # 🚀 Mock API Testing (Postman & Newman)
 
-This repository demonstrates **API Testing** using Postman. I have implemented a complete testing workflow, from setting up a **Mock Server** to generating automated reports with **Newman**, including rigorous **JavaScript Assertions**.
+This repository demonstrates **API Testing** using Postman. I have implemented a complete testing workflow, from setting up a **Mock Server** to generating automated reports with **Newman**.
 
 ---
 
@@ -9,7 +9,7 @@ The project involves testing a set of REST APIs by simulating a real-world envir
 
 ### Key Highlights:
 - **Mock Server Integration:** Simulated backend responses for consistent testing.
-- **Assertions:** Wrote JavaScript tests for every request.
+- **Assertions:** JavaScript tests for every request.
 - **Environment Management:** Managed complex data using `QA Env` variables.
 - **Automated Execution:** Integrated with **Newman** for CLI-based test runs.
 

@@ -1,6 +1,6 @@
 # 🚀 Mock API Testing (Postman & Newman)
 
-This repository demonstrates my proficiency in **API Testing** using Postman. I have implemented a complete testing workflow, from setting up a **Mock Server** to generating automated reports with **Newman**, including rigorous **JavaScript Assertions**.
+This repository demonstrates **API Testing** using Postman. I have implemented a complete testing workflow, from setting up a **Mock Server** to generating automated reports with **Newman**, including rigorous **JavaScript Assertions**.
 
 ---
 
@@ -21,7 +21,7 @@ I have implemented assertions to ensure API reliability:
 - ✅ **Functional Validation:** Checking if status codes match (`200 OK`, `201 Created`).
 - ✅ **Data Integrity:** Comparing API response values with local database records.
 - ✅ **Schema Validation:** Verifying that the JSON structure and data types are correct.
-- ✅ **Performance Benchmarking:** Asserting that response times are within acceptable limits (e.g., < 500ms).
+- ✅ **Performance Benchmarking:** Asserting that response times are within acceptable limits.
 
 ---
 
@@ -44,16 +44,6 @@ I have implemented assertions to ensure API reliability:
 | 📄 [Environment File](./API-Testing-Postman-MockServer/QA%20Env.postman_environment.json) | QA environment variables for dynamic testing. |
 | 📁 [Newman Reports](./API-Testing-Postman-MockServer/newman) | Automated HTML execution reports. |
 | 📁 [DB Screenshots](./API-Testing-Postman-MockServer/DB_Screenshots) | Database schema and data validation evidence. |
-
----
-
-## 🚀 How to Use This Project
-1. **Import:** Download the `.json` files and import them into your Postman workspace.
-2. **Setup:** Ensure the `QA Env` is selected.
-3. **Run via Newman:** Install Newman: `npm install -g newman`
-   Run the test: 
-   ```bash
-   newman run MockAPITesting.postman_collection.json -e "QA Env.postman_environment.json" -r html
    
 ---
 
